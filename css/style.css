@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+hr{
+    border: dotted black;
+    width: 10%;
+    border-bottom: none;
+
+
+}
+a{
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #3498db;
+}
+h1:hover{
+    color: black;
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+    font-family: sans-serif;
+    margin-top: 50px;
+    color:gray;
+}
+h3{
+    color:  #11999E;
+}
+
+.photo{
+   height: 200px;
+   width: 200px;
+    border-radius:50%;
+    float: left;
+    margin-right: 30px;
+    margin-left: 0px;
+    position: absolute;
+    top: 1900px;
+    right:  1100px;
+    
+    
+}
+.bhangra{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 0px;
+    position: absolute;
+    left: 1100px;
+    bottom: 730PX;
+}
+
+.top{ 
+    background-color:skyblue;   
+    padding: 100;
+  
+}
+
+.second{
+    position:absolute;
+    left: 370px;
+    bottom: 2450px;
+}
+
+.first{
+    position: absolute;
+    right: 370;
+    top: 90;
+}
+.p{
+     padding-top: 50px;
+    border-radius: 50%;
+}
+.profile{
+    background-color: antiquewhite;
+}
+
+.Para{
+    font-size: 40px;
+    color:gainsboro;
+    font-weight: normal;
+}
+.Para:hover{
+    color: aquamarine;
+}
+
+
+.footer-link   {
+    color:  #11999E;
+}
+
+.skills-row{
+    width: 50%;
+    margin: 90px auto 90px auto;
+    text-align: left ;
+}
+
+.btn {
+    background: #81d934;
+    background-image: -webkit-linear-gradient(top, #81d934, #2980b9);
+    background-image: -moz-linear-gradient(top, #81d934, #2980b9);
+    background-image: -ms-linear-gradient(top, #81d934, #2980b9);
+    background-image: -o-linear-gradient(top, #81d934, #2980b9);
+    background-image: linear-gradient(to bottom, #81d934, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .bottom-container{
+    background-color: beige;
+    padding: 50px 0 20px 0;
+  }
+  .skills{
+    padding-bottom: 300;
+    padding-top: 200;
+  }
+  .profile{
+    padding-bottom: 100px;
+  }
